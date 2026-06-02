@@ -88,7 +88,7 @@ def train_random_forest(X_train, X_test, y_train, y_test):
 # ==================== MAIN EXECUTION ====================
 if __name__ == "__main__":
     # Set experiment
-    mlflow.set_experiment("insurance_prediction_baseline")
+    # mlflow.set_experiment("insurance_prediction_baseline")
     
     # Enable autolog
     mlflow.sklearn.autolog()
