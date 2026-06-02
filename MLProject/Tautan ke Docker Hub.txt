@@ -1,0 +1,5 @@
+https://hub.docker.com/r/username_anda/insurance-model-ci
+
+Catatan Penting:
+1. Pastikan Anda mengganti 'username_anda' dengan username Docker Hub asli Anda setelah image berhasil dipush oleh GitHub Actions.
+2. Jangan lupa menambahkan DOCKER_USERNAME dan DOCKER_PASSWORD di menu Settings -> Secrets and variables -> Actions di repositori GitHub Anda agar Workflow CI bisa berjalan.
